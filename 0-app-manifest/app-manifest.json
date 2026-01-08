@@ -1,8 +1,5 @@
-## Zoom App Manifest configuration
 
-Replace any placeholder URL such as https://example.ngrok.io with your actual ngrok-generated URL.
 
-```
 {
     "manifest": {
         "display_information": {
@@ -121,4 +118,3 @@ Replace any placeholder URL such as https://example.ngrok.io with your actual ng
         }
     }
 }
-```

@@ -1,8 +1,6 @@
 
 # Zoom Contact Center app Next.js sample app
 
-## Overview
-
 This repository contains a sample Zoom Contact Center app built with a Next.js project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app) the Zoom Apps SDK.
 
 **Key features:**
@@ -28,7 +26,7 @@ The Zoom Marketplace build flow for a Zoom App is available [here](https://marke
 
 Use the following App manifest JSON object to configure the app:
 
-* [App manifest](./AppManifest.md)
+* [App manifest](./0-app-manifest/README.md)
 
 ## Setup .env files
 Please see the .env.local.example file in the repository.
@@ -72,7 +70,7 @@ You should the tunnel traffic:
    * The frontend (Next.js) will be available at `http://localhost:3000` and at ngrok url endpoint.
 
 ## Additional Resources
-* [Getting started with Zoom Contact Center Apps codelab](https://just-zoomit.github.io/zcc-get-started-codelab/#0)
+* [Getting started with Zoom Contact Center Apps codelab](https://just-zoomit.github.io/zcc-get-nextjs-started-codelab/#0)
   
 ## License
 
