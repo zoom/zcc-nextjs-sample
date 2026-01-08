@@ -36,9 +36,10 @@ Use the following endpoint to quickly configure a Zoom Marketplace app:
 PUT /marketplace/apps/{appId}/manifest
 ```
 
-* [Update an app by manifest API endpoint](https://developers.zoom.us/docs/api/marketplace/#tag/manifest/put/marketplace/apps/{appId}/manifest)
+👉 [Update an app by manifest API endpoint](https://developers.zoom.us/docs/api/marketplace/#tag/manifest/put/marketplace/apps/{appId}/manifest)
 
 ### 5. Use Manifest JSON object to create Zoom App
+ Use an API tool like Postman to send a PUT request to the manifest endpoint with the JSON object below as the request body.
 
 > [!NOTE]
 > Replace placeholder URLs like `https://example.ngrok.io` with your actual tunnel URL (e.g., from ngrok).
