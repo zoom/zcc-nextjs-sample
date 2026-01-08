@@ -2,9 +2,13 @@
 
 This guide shows how to create a Zoom App app using the **App Manifest API**.
 
+Since HTML buttons with inline `onclick` events won't render properly on platforms like GitHub or markdown-based documentation, it's best to use a **styled markdown link** instead. Here's an effective alternative that clearly invites users to click, using bold text and emojis for visibility:
+
+---
+
 ### 1. Create an OAuth app
 
-<button style="background-color:#0E71EB; color:white; border:none; padding:10px 16px; border-radius:4px; cursor:pointer;" onclick="window.location.href='https://marketplace.zoom.us/develop/create';">Create app</button>
+👉 **[Click here to create an app on the Zoom App Marketplace](https://marketplace.zoom.us/develop/create)**
 
 Select **General app** and click **Create**.
 
