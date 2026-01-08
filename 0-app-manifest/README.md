@@ -13,6 +13,8 @@ This guide shows how to create a Zoom App app using the **App Manifest API**.
 > [!NOTE]
 > Take note of your app ID in the URL after app creation -- you will need it to later on.
 
+---
+
 ### 2. Retrieve app credentials
 
 * Click **Manage** > your app
@@ -21,6 +23,7 @@ This guide shows how to create a Zoom App app using the **App Manifest API**.
 > [!Note]
 > Use these credentials for [authorization](https://developers.zoom.us/docs/integrations/oauth/).
 
+---
 ### 3. Add required scopes
 
 Add the following scopes under the **Scopes** section:
@@ -28,15 +31,19 @@ Add the following scopes under the **Scopes** section:
 * `marketplace:write:app` — Create apps
 * `marketplace:read:app` — View an app
 
+---
 ### 4. Update the app using the Manifest API
 
 Use the following endpoint to quickly configure a Zoom Marketplace app:
 
+**Example request:**
 ```
 PUT /marketplace/apps/{appId}/manifest
 ```
 
 👉 [Update an app by manifest API endpoint](https://developers.zoom.us/docs/api/marketplace/#tag/manifest/put/marketplace/apps/{appId}/manifest)
+
+---
 
 ### 5. Use Manifest JSON object to create Zoom App
  Use an API tool like Postman to send a PUT request to the manifest endpoint with the JSON object below as the request body.
@@ -44,6 +51,7 @@ PUT /marketplace/apps/{appId}/manifest
 > [!NOTE]
 > Replace placeholder URLs like `https://example.ngrok.io` with your actual tunnel URL (e.g., from ngrok).
 
+**Request body:**
 ```
 {
     "manifest": {
