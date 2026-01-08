@@ -10,7 +10,7 @@ Since HTML buttons with inline `onclick` events won't render properly on platfor
 
 👉 **[Click here to create an app on the Zoom App Marketplace](https://marketplace.zoom.us/develop/create)**
 
-Select **General app** and click **Create**.
+* Select **General app** and click **Create**.
 
 > [!NOTE]
 > Take note of your app ID in the URL after app creation -- you will need it to later on.
